@@ -702,18 +702,18 @@ p {
 }
 
 a {
-  color: #9d9d9d;
+  color: #CCCCCC;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CCCCCC;
+  color: #FF5722;
   text-decoration: underline;
 }
 
 a:active,
 a:focus {
-  color: #CCCCCC;
+  color: #FF5722;
   outline: none;
 }
 
