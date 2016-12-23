@@ -707,13 +707,13 @@ a {
 }
 
 a:hover {
-  color: #777777;
+  color: #CCCCCC;
   text-decoration: underline;
 }
 
 a:active,
 a:focus {
-  color: #777777;
+  color: #CCCCCC;
   outline: none;
 }
 
@@ -733,7 +733,7 @@ blockquote {
 }
 
 cite {
-  color: #c3c3c3;
+  color: #CCCCCC;
   font-style: italic;
 }
 
