@@ -702,7 +702,7 @@ p {
 }
 
 a {
-  color: #CCCCCC;
+  color: #333333;
   text-decoration: none;
 }
 
@@ -974,13 +974,12 @@ nav > ol li {
 
 @media all and (min-width: 720px) and (max-width: 1023px ) {
   .social {
-    width: 100%;
-    float: right;
+    left: -50%;
   }
 }
 
 .social p {
-  float: right;
+  text-align: center;
   font-size: 12px;
   font-size: 0.75rem;
 }
