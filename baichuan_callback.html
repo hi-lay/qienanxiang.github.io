@@ -15,6 +15,11 @@
     console.log("test");
     console.log(Request);
 
+	function close_fun_windows(){
+		  windows.Baichuan.closeWebView(function(params){
+		  	alert(params);
+		  });
+		}
 		function close_fun(){
 		  Baichuan.closeWebView(function(params){
 		  	alert(params);
@@ -23,6 +28,7 @@
 		</script>
 </head>
 <body>
+		<input type="button" onclick="close_fun_windows()" value="Close_windows" />
 		<input type="button" onclick="close_fun()" value="Close" />
 </body>
 </html>
